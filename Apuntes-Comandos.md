@@ -7,6 +7,13 @@ gcloud init
 gcloud artifacts repositories create repo-mlops12-streamlit-regression --repository-format docker --project project-mlops12-first-chris-op --location us-central1
 
 ## Paso Automatizado
+- git init
+- git add .
+- git commit -m "Proyecto de automatización de despliegue en GCR"
+- git remote add origin https://github.com/ChrisO27/mlops12-streamlit-regresion.git
+- git branch -M main
+- git push -u origin main
+
 
 
 
